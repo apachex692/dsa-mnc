@@ -14,9 +14,9 @@ This repository contains all data structures and algorithms from LeetCode writte
 
 ### Programs Solved
 
-- **Total:** 42
+- **Total:** 43
 - **Easy:** 10
-- **Medium:** 27
+- **Medium:** 28
 - **Hard:** 5
 
 ### Programs List
@@ -42,6 +42,7 @@ This repository contains all data structures and algorithms from LeetCode writte
 | 567    | Permutation in String                                               | Sliding Window                     | Medium     | O(N)              | O(1)             |
 | 76     | Minimum Window Substring                                            | Sliding Window                     | Hard       | O(N)              | O(N)             |
 | 239    | Sliding Window Maximum                                              | Sliding Window                     | Hard       | O(N)              | O(N)             |
+| 209    | Minimum Size Subarray Sum                                           | Sliding Window                     | Medium     | O(N)              | O(1)             |
 | 20     | Valid Parentheses                                                   | Stack                              | Easy       | O(N)              | O(N)             |
 | 155    | Min Stack                                                           | Stack                              | Medium     | O(1)              | O(2N) → O(N)     |
 | 150    | Evaluate Reverse Polish Notation                                    | Stack                              | Medium     | O(N)              | O(N)             |
