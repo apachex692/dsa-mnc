@@ -21,16 +21,19 @@ def product_except_self(nums: list[int]) -> list[int]:
 
 # O(2N) → O(N), O(1)
 def product_except_self2(nums: list[int]) -> list[int]:
-    nums_len = len(nums)
-    result = [1 for _ in range(nums_len)]
+    cummulative_prod = 1
+    result = []
 
-    for index in range(1, nums_len):
-        result[index] = result[index - 1] * nums[index - 1]
+    for num in nums:
+        result.append(cummulative_prod)
+        cummulative_prod *= num
 
-    cumm_product = nums[-1]
-    for index in range(-2, -nums_len - 1, -1):
-        result[index] *= cumm_product
-        cumm_product *= nums[index]
+    cummulative_prod = 1
+
+    for index in range(len(nums) - 1, -1, -1):
+        result[index] *= cummulative_prod
+        cummulative_prod *= nums[index]
+
     return result
 
 if __name__ == "__main__":
