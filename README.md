@@ -14,9 +14,9 @@ This repository contains all data structures and algorithms from LeetCode writte
 
 ### Programs Solved
 
-- **Total:** 43
+- **Total:** 44
 - **Easy:** 10
-- **Medium:** 28
+- **Medium:** 29
 - **Hard:** 5
 
 ### Programs List
@@ -34,6 +34,7 @@ This repository contains all data structures and algorithms from LeetCode writte
 | 125    | Valid Palindrome                                                    | Two Pointers                       | Easy       | O(N)              | O(1)             |
 | 167    | Two Sum II - Input Array is Sorted                                  | Two Pointers                       | Medium     | O(N)              | O(1)             |
 | 15     | 3Sum                                                                | Two Pointers                       | Medium     | O(N^2)            | O(1) or O(N)     |
+| 15     | 3Sum Closest                                                        | Two Pointers                       | Medium     | O(N^2)            | O(1) or O(N)     |
 | 11     | Container with Most Water                                           | Two Pointers                       | Medium     | O(N)              | O(1)             |
 | 42     | Trapping Rain Water                                                 | Two Pointers                       | Hard       | O(N)              | O(1)             |
 | 121    | Best Time to Buy and Sell Stocks                                    | Sliding Window                     | Easy       | O(N)              | O(1)             |
